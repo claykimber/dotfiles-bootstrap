@@ -37,6 +37,8 @@ fi;
 dotfiles checkout
 dotfiles config status.showUntrackedFiles no
 
+# not needed due to option preset in .gitconfig
 #dotfiles push --set-upstream origin main
 
-source $HOME/.bashrc
+echo "Make sure to run source ~/.bashrc."
+exit 0
