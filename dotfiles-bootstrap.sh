@@ -9,7 +9,7 @@ fi
 # Check if a repository URL is provided as an argument
 if [ -z "$1" ]; then
   echo "Error: Please provide the repository URL as an argument."
-  echo "Usage: $0 <repository_url>"
+  echo "Usage: $0 <repository_ssh_url>"
   exit 1
 fi
 
